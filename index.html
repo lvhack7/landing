@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/6abe195c24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="container flex items-center p-4 md:p-0 md:px-12 md:py-6">
+        <div class="flex flex-grow">
+            <div class="flex mr-4">
+                <p class="font-bold text-2xl">nodecamp</p>
+            </div>
+            <div class="flex text-xs items-center space-x-5 p-3">
+                <p class="text-gray cursor-pointer hover:underline">О курсе</p>
+                <p class="text-gray cursor-pointer hover:underline">Что вы получете? </p>
+                <p class="text-gray cursor-pointer hover:underline">Особенности курса</p>
+                <p class="text-gray cursor-pointer hover:underline">Программа курса</p>
+                <p class="hidden lg:inline-flex text-gray cursor-pointer hover:underline">Стоимость</p>
+                <p class="hidden lg:inline-flex text-gray cursor-pointer hover:underline">Отзывы</p>
+            </div>
+        </div>
+        <button class="rounded-full px-6 py-2 text-sm font-bold text-white bg-main">
+            Записаться
+        </button>
+    </nav>
+
+    <main>
+        <section class="container p-4 md:p-0 md:px-12 md:py-6 grid grid-cols-2">
+            <div>
+                <div class="center-half">
+                    <div class="rounded-md p-2 badge-blue">
+                        <p class="font-bold text-xs">Онлайн курс основ программирования для начинающих</p>
+                    </div>
+                    <p class="mt-2 font-bold text-4xl">Научись программировать <br>на реальных задачах</p>
+                    <p class="mt-4 text-sm text-gray-500">Квалифицированные преподаватели обучают по международным стандартам самым современным технологиям в программировании.</p>
+                    <div class="mt-6">
+                        <button class="rounded-full px-6 py-2 text-sm font-bold text-white bg-secondary">
+                            Записаться🚀
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="anim-img">
+                <img src="./imgs/Other 03.png">
+            </div>
+        </section>
+        <section class="container mt-20 p-4 md:p-0 md:px-12 md:py-6">
+            <div class="text-center">
+                <p class="font-bold text-4xl">Очем этот курс</p>
+                <p class="text-sm mt-4">Курс рассчитан на тех, кто желает погрузиться в мир IT <br>технологий и начать писать свои первые программы.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 mt-8">
+                <div class="rounded-2xl p-2 text-center bg-wheat">
+                    <div class="p-2 py-4">
+                        <p class="text-xl">🔥</p>
+                        <p class="font-bold text-xl mt-2">Основы создания алгоритмов</p>
+                        <p class="mt-4 text-sm">На курсе вы научитесь грамотно выстраивать свой код, чтобы он был легко масштабируемым и читабельным для ваших коллег.</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl p-2 text-center bg-wheat">
+                    <div class="p-2 py-4">
+                        <p class="text-xl">🔥</p>
+                        <p class="font-bold text-xl mt-2">C# и JavaScript</p>
+                        <p class="mt-4 text-sm">Познакомитесь с такими известными языками программирования, как C# и JavaScript, а также немного узнаем о ASP.NET и React.</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl p-2 text-center bg-wheat">
+                    <div class="p-2 py-4">
+                        <p class="text-xl">🔥</p>
+                        <p class="font-bold text-xl mt-2">Олимпиадное программирование</p>
+                        <p class="mt-4 text-sm">На протяжении всего курса мы даем вам задачи из олимпиадного программирования, направленных на решение реальных проблем!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-20 p-4 md:p-0 md:px-12 md:py-6">
+            <div>
+                <p class="font-bold text-4xl">Что вы получите?</p>
+                <p class="mt-4 text-sm">Навыки, которыми вы овладете пройдя данный курс</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="p-8">
+                    <img src="imgs/person.png" width="65%">
+                </div>
+                <div>
+                    <div class="center-40">
+                        <ul class="list-achvmnts">
+                            <li
+                               data-aos="fade-left"                             
+                               data-aos-duration="1200"
+                               data-aos-once="true"
+                            ><b>Выстраивать</b> чистую и правильную архитектуру кода
+                            </li>
+                            <li
+                                data-aos="fade-left"                             
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Понимание</b> объектно-ориентированного программирования
+                            </li>
+                            <li
+                                data-aos="fade-left"                              
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Базовые знания</b> С#, JavaScript, React и ASP.NET
+                            </li>
+                            <li
+                                data-aos="fade-left"                              
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Кейсы</b> в свой портфолио
+                            </li>
+                            <li
+                                data-aos="fade-left"                               
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Постоянный контроль</b> учебного процесса для достижения результата
+                            </li>
+                            <li
+                                data-aos="fade-left" 
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Ревью вашего кода</b> для улучшения стиля программирования
+                            </li>
+                            <li
+                                data-aos="fade-left" 
+                                data-aos-duration="1200"
+                                data-aos-once="true"
+                            >
+                                <b>Участие</b> в различных контестах
+                            </li>
+                        </ul>
+                        <button class="-ml-8 rounded-full px-7 py-2 text-sm font-bold text-white bg-secondary">
+                            Записаться 🚀
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black">
+            <div class="container p-4 md:-mt-32 md:px-12 md:pt-8 text-white">
+                <div class="text-center py-16">
+                    <p class="font-bold text-4xl">Особенности курса</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div>
+                        <img src="imgs/1.png">
+                        <p class="font-bold text-lg mt-4">Индивидуальная работа с <br>учениками</p>
+                        <p class="text-sm mt-2">Мы следим за успеваемостью каждого ученика и за выполнением домашнего задания. Если ученик недопонимает какую-либо тему, мы заостряем на ней внимание, а также консультируем во внеурочное время.</p>
+                    </div>
+                    <div>
+                        <img src="imgs/2.png">
+                        <p class="font-bold text-lg mt-4">Международный подход <br>в обучении</p>
+                        <p class="text-sm mt-2">Наши специалисты не только квалифицированные программисты, но и дипломированные педагоги, которые используют зарубежный подход в образовании, что помогает давать нам знания более качественно.</p>
+                    </div>
+                    <div>
+                        <img src="imgs/3.png">
+                        <p class="font-bold text-lg mt-4">Фокус на <br>практике</p>
+                        <p class="text-sm mt-2">В нашем курсе вы будете решать реальные олимпиадные задачи по программированию, так как они помогают понять как выстраивать свой код так, чтобы он соответствовал стандартам. Был быстрым и весил мало места.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative -mt-32">
+                <img src="imgs/Vector 1.png">
+                <img class="absolute top-12" src="imgs/Vector 2.png">
+                <img class="absolute top-24" src="imgs/Vector 3.png">
+            </div>
+        </section>
+        <section class="container p-4 md:p-12 mt-12">
+            <div class="text-center">
+                <p class="font-bold text-3xl">Программа курса</p>
+            </div>
+            <div class="bg-wheat rounded-3xl px-10 py-6 mt-12">
+                <div class="flex items-center">
+                    <p class="font-bold text-2xl flex-grow text-gray-700">Основы программирования</p>
+                    <img src="imgs/install.svg" width="20">
+                </div>
+                <hr class="mt-4" style="height:2px;border-width:0;color:gray;background-color:gray">
+                <div class="py-6 grid grid-cols-1 md:grid-cols-2">
+                    <div>
+                        <p class="text-blue font-bold text-xl">1 месяц</p>
+                        <p class="text-sm mt-2 text-gray-500">В первом месяце мы будем знакомиться с миром IT и программирования на примере языка программирования C#. Узнаем базовые термины 
+                            и определения, напишем свои первые программы и решим задачи</p>
+                        <ul class="list-inst text-sm p-4 text-gray-700">
+                            <li class="font-bold">Введение в программирование</li>
+                            <li class="font-bold">Переменные, константы, типы данных</li>
+                            <li class="font-bold">Условные выражения, конструкции if .. else</li>
+                            <li class="font-bold">Циклы</li>
+                            <li class="font-bold">Массивы</li>
+                            <li class="font-bold">Функции, методы, return</li>
+                            <li class="font-bold">Рекурсивные функции, локальные функции</li>
+                        </ul>        
+                    </div>
+                    <div>
+                        <img class="center-half" src="imgs/MAN.png" width="200">
+                    </div>
+                </div>
+                <hr class="mt-4" style="height:2px;border-width:0;color:gray;background-color:gray">
+                <div class="flex items-center py-6">
+                    <p class="font-bold text-2xl flex-grow text-gray-700">Классы, объекты, структуры, ООП </p>
+                    <img src="imgs/install.svg" width="20">
+                </div>
+                <hr class="mt-4" style="height:2px;border-width:0;color:gray;background-color:gray">
+                <div class="flex items-center py-6">
+                    <p class="font-bold text-2xl flex-grow text-gray-700">Углубление в ООП, области видимости, преобразование</p>
+                    <img src="imgs/install.svg" width="20">
+                </div>
+                <hr class="mt-4" style="height:2px;border-width:0;color:gray;background-color:gray">
+                <div class="flex items-center py-6">
+                    <p class="font-bold text-2xl flex-grow text-gray-700">Обработка исключений, делегаты, события и лямбды</p>
+                    <img src="imgs/install.svg" width="20">
+                </div>
+                <hr class="mt-4" style="height:2px;border-width:0;color:gray;background-color:gray">
+                <div class="flex items-center py-6">
+                    <p class="font-bold text-2xl flex-grow text-gray-700">Дипломная работа</p>
+                    <img src="imgs/install.svg" width="20">
+                </div>
+            </div> 
+        </section>
+        <section class="bg-black p-4 md:p-10">
+            <div class="container rounded-2xl bg-white p-8">
+                <div class="flex flex-col md:flex-row p-2 items-center">
+                    <div class="flex-grow">
+                        <p class="font-bold text-2xl">Получи бесплатный подготовительный курс 🔥 </p>
+                        <p class="font-bold mt-6">Программа курса:</p>
+                        <ul class="list-inst text-gray-500 text-sm pl-6 py-2">
+                            <li>Что такое ООП</li>
+                            <li>Знакомство с переменнами и типы данных</li>
+                            <li>Условия, циклы и массивы</li>
+                            <li>3 практические задачи</li>
+                        </ul>
+                    </div>
+                    <form class="flex flex-col flex-grow space-y-5">
+                        <div class="h-12 rounded-2xl input-border">
+                            <div class="input-title-40 text-center">
+                                <p>Имя</p>
+                            </div>
+                            <div class="px-4">
+                                <input class="focus:outline-none" placeholder="Введите ваше имя" type="text">
+                            </div>
+                        </div>
+                        <div class="h-12 rounded-2xl input-border">
+                            <div class="input-title-70 text-center">
+                                <p>Телефон</p>
+                            </div>
+                            <div class="px-4">
+                                <input class="focus:outline-none" placeholder="+7 (777) 777 77 77" type="tel">
+                            </div>
+                        </div>
+                        <button class="w-full rounded-full px-7 py-4 font-bold text-white bg-secondary">
+                            Записаться 🚀
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="p-5 p-20 bg-black">
+        <div class="container justify-center">
+            <div class="text-center">
+                <p class="text-white font-semibold text-5xl">nodecamp</p>
+                <div class="mt-6">
+                    <i class="text-white fab fa-whatsapp fa-lg mr-2"></i>
+                    <i class="text-white fab fa-instagram fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="text-white flex mx-auto ml-32 mt-6 space-x-10">
+            <p>О курсу</p>
+            <p>Что вы получите?</p>
+            <p>Особенности курса</p>
+            <p>Программа курса</p>
+            <p>Стоимость</p>
+            <p>Отзывы</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
